@@ -269,7 +269,7 @@ var Codebase = function() {
         }
 
         // Set the active color theme link as active
-        jQuery('[data-toggle="theme"][data-theme="' + (themeEl.length ? themeEl.attr('href') : 'default') + '"]')
+        jQuery('[data-toggle="theme"][data-theme="' + (themeEl.length ? themeEl.attr('href') : 'corporate') + '"]')
             .parent('li')
             .addClass('active');
 

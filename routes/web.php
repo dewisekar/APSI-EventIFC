@@ -21,3 +21,7 @@ Route::group(['prefix' => 'admin'], function () {
         return view('admin/admindashboard');
     })->name('adminhome');
 });
+
+Route::group(['prefix' => 'peminjaman'], function () {
+    Route::get('', 'Peminjaman\ViewController@index');
+});
