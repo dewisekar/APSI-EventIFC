@@ -1530,25 +1530,6 @@
         </div>
         <!-- END Page Container -->
 
-        <!-- Codebase Core JS -->
-        <script src="assets/js/core/jquery.min.js"></script>
-        <script src="assets/js/core/bootstrap.bundle.min.js"></script>
-        <script src="assets/js/core/jquery.slimscroll.min.js"></script>
-        <script src="assets/js/core/jquery.scrollLock.min.js"></script>
-        <script src="assets/js/core/jquery.appear.min.js"></script>
-        <script src="assets/js/core/jquery.countTo.min.js"></script>
-        <script src="assets/js/core/js.cookie.min.js"></script>
-        <script src="assets/js/codebase.js"></script>
-
-        <!-- Page JS Plugins -->
-        <script src="assets/js/plugins/magnific-popup/magnific-popup.min.js"></script>
-
-        <!-- Page JS Code -->
-        <script>
-            jQuery(function () {
-                // Init page helpers (Magnific Popup plugin)
-                Codebase.helpers('magnific-popup');
-            });
-        </script>
+        @yield('js')
     </body>
 </html>

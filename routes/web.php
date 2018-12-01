@@ -24,4 +24,5 @@ Route::group(['prefix' => 'admin'], function () {
 
 Route::group(['prefix' => 'peminjaman'], function () {
     Route::get('', 'Peminjaman\ViewController@index');
+    Route::get('/about_us', 'Peminjaman\ViewController@aboutUs');
 });
