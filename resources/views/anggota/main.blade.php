@@ -21,14 +21,15 @@
 
         <!-- Icons -->
         <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
-        <link rel="shortcut icon" href="assets/img/favicons/favicon.png">
-        <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/favicon-192x192.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon-180x180.png">
+        <link rel="shortcut icon" href="../assets/img/favicons/favicon.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="../assets/img/favicons/favicon-192x192.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicons/apple-touch-icon-180x180.png">
         <!-- END Icons -->
 
         <!-- Stylesheets -->
+        <link rel="stylesheet" href="../assets/js/plugins/sweetalert2/sweetalert2.min.css">
         <!-- Codebase framework -->
-        <link rel="stylesheet" id="css-main" href="assets/css/codebase.min.css">
+        <link rel="stylesheet" id="css-main" href="../assets/css/codebase.min.css">
 
         <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
         <!-- <link rel="stylesheet" id="css-theme" href="assets/css/themes/flat.min.css"> -->
@@ -95,7 +96,7 @@
                             <!-- User Info -->
                             <div class="content-header-item">
                                 <a class="img-link mr-5" href="be_pages_generic_profile.html">
-                                    <img class="img-avatar img-avatar32" src="assets/img/avatars/avatar15.jpg" alt="">
+                                    <img class="img-avatar img-avatar32" src="../assets/img/avatars/avatar15.jpg" alt="">
                                 </a>
                                 <a class="align-middle link-effect text-primary-dark font-w600" href="be_pages_generic_profile.html">John Smith</a>
                             </div>
@@ -441,11 +442,11 @@
                             <!-- Visible only in normal mode -->
                             <div class="sidebar-mini-hidden-b text-center">
                                 <a class="img-link" href="be_pages_generic_profile.html">
-                                    <img class="img-avatar" src="assets/img/avatars/avatar15.jpg" alt="">
+                                    <img class="img-avatar" src="../assets/img/avatars/avatar15.jpg" alt="">
                                 </a>
                                 <ul class="list-inline mt-10">
                                     <li class="list-inline-item">
-                                        <a class="link-effect text-dual-primary-dark font-size-xs font-w600 text-uppercase" href="be_pages_generic_profile.html">Selamat datang!</a>
+                                        <a class="link-effect text-dual-primary-dark font-size-xs font-w600 text-uppercase" href="be_pages_generic_profile.html">Selamat datang, Admin!</a>
                                     </li>
                                 </ul>
                             </div>
@@ -457,12 +458,40 @@
                         <div class="content-side content-side-full">
                             <ul class="nav-main">
                                 <li>
-                                    <a href="/peminjaman"><i class="si si-notebook"></i><span class="sidebar-mini-hide">Peminjaman barang</span></a>
+                                    <a href="/anggota/dashboard"><i class="si si-home"></i><span class="sidebar-mini-hide">Dashboard</span></a>
                                 </li>
                             </ul>
                             <ul class="nav-main">
                                 <li>
-                                    <a href="/peminjaman/about_us"><i class="si si-globe"></i><span class="sidebar-mini-hide">about us</span></a>
+                                    <a href="/anggota/daftar_pemain"><i class="si si-game-controller"></i><span class="sidebar-mini-hide">Daftar Pemain</span></a>
+                                </li>
+                            </ul>
+                            <ul class="nav-main">
+                                <li>
+                                    <a href="/anggota/data_kegiatan"><i class="si si-puzzle"></i><span class="sidebar-mini-hide">Data Kegiatan</span></a>
+                                </li>
+                            </ul>
+                            <ul class="nav-main">
+                                <li>
+                                    <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-user"></i><span class="sidebar-mini-hide">Data Peserta</span></a>
+                                    <ul style="background-color: #f7f4e5">
+                                        <li>
+                                            <a href="/peminjaman"><span class="sidebar-mini-hide">Presensi</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="/peminjaman"><span class="sidebar-mini-hide">Keaktifan</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="nav-main">
+                                <li>
+                                    <a href="/peminjaman"><i class="si si-layers"></i><span class="sidebar-mini-hide">Informasi Barang</span></a>
+                                </li>
+                            </ul>
+                            <ul class="nav-main">
+                                <li>
+                                    <a href="/peminjaman"><i class="si si-list"></i><span class="sidebar-mini-hide">Data Peminjaman</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -501,11 +530,31 @@
                         <!-- User Dropdown -->
                         <div class="btn-group" role="group">
                             <button type="button" class="btn btn-rounded btn-dual-secondary" id="page-header-user-dropdown" data-toggle="dropdown" aria-expanded="false" style="color : #f7f4e5">
-                                Guest<i class="fa fa-angle-down ml-5"></i>
+                                Admin<i class="fa fa-angle-down ml-5"></i>
                             </button>
                             <div class="dropdown-menu dropdown-menu-right min-width-150" aria-labelledby="page-header-user-dropdown">
-                                <a class="dropdown-item" href="/anggota">
-                                    <i class="si si-login mr-5"></i> Login
+                                <a class="dropdown-item" href="be_pages_generic_profile.html">
+                                    <i class="si si-user mr-5"></i> Profile
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center justify-content-between" href="be_pages_generic_inbox.html">
+                                    <span><i class="si si-envelope-open mr-5"></i> Inbox</span>
+                                    <span class="badge badge-primary">3</span>
+                                </a>
+                                <a class="dropdown-item" href="be_pages_generic_invoice.html">
+                                    <i class="si si-note mr-5"></i> Invoices
+                                </a>
+                                <div class="dropdown-divider"></div>
+
+                                <!-- Toggle Side Overlay -->
+                                <!-- Layout API, functionality initialized in Codebase() -> uiApiLayout() -->
+                                <a class="dropdown-item" href="javascript:void(0)" data-toggle="layout" data-action="side_overlay_toggle">
+                                    <i class="si si-wrench mr-5"></i> Settings
+                                </a>
+                                <!-- END Side Overlay -->
+
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="/peminjaman">
+                                    <i class="si si-logout mr-5"></i> Sign Out
                                 </a>
                             </div>
                         </div>

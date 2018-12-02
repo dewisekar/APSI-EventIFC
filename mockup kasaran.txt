@@ -1,0 +1,79 @@
+Use Case :										Page :
+1. mengelola akun pemain								1. Daftar Pemain
+    - page Daftar Pemain								2. Kegiatan UKMSB
+    - ada tombol +Tambah, tiap pemain ada XHapus & @Update				3. Keaktifan
+	> +Tambah									4. Barang
+	  menapilkan form membuat akun							5. Pengurus
+	> XHapus									6. Profil
+	  muncul konfirmasi								
+	  Hapus!!!
+	> @Update
+	  menampilkan data diri pemain
+2. mengelola data kegiatan
+    - page Kegiatan UKM
+    - ada tombol +Tambah, tiap kegiatan ada XHapus & @Update
+	> +Tambah
+	  menapilkan form tambah kegiatan
+	> XHapus
+	  muncul konfirmasi
+	  Hapus!!!
+	> @Update
+	  menampilkan form kegiatan tsb
+3. mengelola data peserta
+    - page Keaktifan
+    - ada bar Presensi dan Berkas Lomba
+	> Presensi
+	  - menampilkan list kegiatan
+	  - presensi
+	> Berkas Lomba
+	  - manmpilkan list berkas
+	  - terdapat tombol +Tambah Berkas
+	  - menampilkan form tambah berkas
+4. mengelola informasi barang
+    - page Barang
+    - ada tombol +Tambah, tiap barang ada XHapus & @Update
+	> +Tambah
+	  menapilkan form tambah barang
+	> XHapus
+	  muncul konfirmasi
+	  Hapus!!!
+	> @Update
+	  menampilkan informasi barang tertentu
+5. memverifikasi tiket peminjaman
+    - page Pengurus
+    - page Data Peminjaman
+    - menampilkan daftar tiket peminjaman
+    - melakukan verifikasi
+6. mengelola data peminjaman
+    - page Pengurus
+    - page Data Peminjaman
+    - ada tombol +Tambah, tiap barang ada XHapus & @Update
+	> +Tambah
+	  menapilkan form data peminjaman
+	> XHapus
+	  muncul konfirmasi
+	  Hapus!!!
+	> @Update
+	  menampilkan informasi data peminjaman tertentu
+7. mengelola data diri
+    - page Profil
+    - tombol @Update
+    - menampilkan form data diri
+8. melihat record kehadiran dan keaktifan
+    - page Keaktifan
+    - menampilkan list kegiatan dan list berkas
+9. melihat informasi barang
+    - page Barang
+    - menampilkan list Barang
+10. mengisi tiket peminjaman baran
+    - page Barang
+    - menampilkan barang
+    - setiap barang ada tombol pinjam
+    - menampilkan form/tiket peminjaman
+11. memverifikasi data peserta
+12. mengelola akun peserta
+13. mengelola jadwal pertandingan
+14. mengelola record hasil pertandingan
+15. mengelola data peserta
+16. melihat jadwal pertandingan
+17. melihat record hasil pertandingan
