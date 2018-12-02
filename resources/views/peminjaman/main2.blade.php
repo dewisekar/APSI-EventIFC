@@ -4,57 +4,102 @@
 <main id="main-container">
                 <!-- Page Content -->
                 <div class="content">
-                <!-- Advanced Gallery (.js-gallery class is initialized in Codebase() -> uiHelperMagnific()) -->
-                    <!-- For more info and examples you can check out http://dimsemenov.com/plugins/magnific-popup/ -->
                     <h2 class="content-heading">Peminjaman Inventaris UKM Sepakbola ITS</h2>
-                    <div class="row items-push js-gallery">
-                        <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
-                            <div class="options-container fx-item-zoom-in fx-overlay-slide-down">
-                                <img class="img-fluid options-item" src="assets/img/photos/bola_sepak.jpg" alt="">
-                                <div class="options-overlay bg-black-op-75">
-                                    <div class="options-overlay-content">
-                                        <h3 class="h4 text-white mb-5">Bola Sepak</h3>
-                                        <h4 class="h6 text-white-op mb-15">Bola ukuran standar yang berkualitas</h4>
-                                        <button class="btn btn-sm btn-rounded btn-noborder btn-alt-primary min-width-75 img-lightbox" data-toggle="modal" data-target="#modal-popin1">
-                                            <i class="fa fa-search-plus"></i> View
-                                        </button>
-                                        <button class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" data-toggle="modal" data-target="#modal-pinjam"><i class="si si-basket"></i> Pinjam</a>
+                    <div class="row">
+                        <div class="col-md-6 col-xl-3">
+                            <!-- Developer Plan -->
+                            <a class="block block-link-pop block-rounded block-bordered text-center" href="javascript:void(0)">
+                                <div class="block-header">
+                                    <h3 class="block-title">Bola Sepak</h3>
+                                </div>
+                                <div class="block-content bg-gray-lighter">
+                                    <div class="col-12 animated fadeIn">
+                                        <div class="options-container fx-item-zoom-in fx-overlay-slide-down">
+                                            <img class="img-fluid options-item" src="assets/img/photos/bola_sepak.jpg" alt="">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                                <div class="block-content">
+                                    <p>Jumlah Tersedia: <strong>15</strong></p>
+                                    <p>Bola ukuran standar yang berkualitas</p>
+                                </div>
+                                <div class="block-content block-content-full bg-gray-lighter">
+                                    <button class="btn btn-lg btn-rounded btn-noborder btn-alt-success min-width-75" data-toggle="modal" data-target="#modal-pinjam"><i class="si si-basket"></i> Pinjam</button>
+                                </div>
+                            </a>
+                            <!-- END Developer Plan -->
                         </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
-                            <div class="options-container fx-item-zoom-in fx-overlay-slide-down">
-                                <img class="img-fluid options-item" src="assets/img/photos/gawang_kecil.jpg" alt="">
-                                <div class="options-overlay bg-black-op-75">
-                                    <div class="options-overlay-content">
-                                        <h3 class="h4 text-white mb-5">Gawang Kecil</h3>
-                                        <h4 class="h6 text-white-op mb-15">Gawang berukuran kecil untuk latihan akurasi tendangan</h4>
-                                        <button class="btn btn-sm btn-rounded btn-noborder btn-alt-primary min-width-75 img-lightbox" data-toggle="modal" data-target="#modal-popin2">
-                                            <i class="fa fa-search-plus"></i> View
-                                        </button>
-                                        <button class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" data-toggle="modal" data-target="#modal-pinjam"><i class="si si-basket"></i> Pinjam</a>
+                        <div class="col-md-6 col-xl-3">
+                            <!-- Startup Plan -->
+                            <a class="block block-link-pop block-rounded block-bordered text-center" href="javascript:void(0)">
+                                <div class="block-header">
+                                    <h3 class="block-title">Gawang Kecil</h3>
+                                </div>
+                                <div class="block-content bg-gray-lighter">
+                                    <div class="col-12 animated fadeIn">
+                                        <div class="options-container fx-item-zoom-in fx-overlay-slide-down">
+                                            <img class="img-fluid options-item" src="assets/img/photos/gawang_kecil.jpg" alt="">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                                <div class="block-content">
+                                    <p>Jumlah Tersedia: <strong>5</strong></p>
+                                    <p>Gawang berukuran kecil untuk latihan akurasi tendangan</p>
+                                </div>
+                                <div class="block-content block-content-full bg-gray-lighter">
+                                    <button class="btn btn-lg btn-rounded btn-noborder btn-alt-success min-width-75" data-toggle="modal" data-target="#modal-pinjam"><i class="si si-basket"></i> Pinjam</button>
+                                </div>
+                            </a>
+                            <!-- END Startup Plan -->
                         </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
-                            <div class="options-container fx-item-zoom-in fx-overlay-slide-down">
-                                <img class="img-fluid options-item" src="assets/img/photos/sarung_tangan.jpg" alt="">
-                                <div class="options-overlay bg-black-op-75">
-                                    <div class="options-overlay-content">
-                                        <h3 class="h4 text-white mb-5">Sarung Tangan Kiper</h3>
-                                        <h4 class="h6 text-white-op mb-15">Sarung tangan bagi kiper untuk mengurangi rasa sakit</h4>
-                                        <button class="btn btn-sm btn-rounded btn-noborder btn-alt-primary min-width-75 img-lightbox" data-toggle="modal" data-target="#modal-popin3">
-                                            <i class="fa fa-search-plus"></i> View
-                                        </button>
-                                        <button class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" data-toggle="modal" data-target="#modal-pinjam"><i class="si si-basket"></i> Pinjam</a>
+                        <div class="col-md-6 col-xl-3">
+                            <!-- Business Plan -->
+                            <a class="block block-link-pop block-rounded block-bordered text-center" href="javascript:void(0)">
+                                <div class="block-header">
+                                    <h3 class="block-title">Sarung Tangan Kiper</h3>
+                                </div>
+                                <div class="block-content bg-gray-lighter">
+                                    <div class="col-12 animated fadeIn">
+                                        <div class="options-container fx-item-zoom-in fx-overlay-slide-down">
+                                            <img class="img-fluid options-item" src="assets/img/photos/sarung_tangan.jpg" alt="">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                                <div class="block-content">
+                                    <p>Jumlah Tersedia: <strong>10</strong></p>
+                                    <p>Sarung tangan bagi kiper untuk mengurangi rasa sakit</p>
+                                </div>
+                                <div class="block-content block-content-full bg-gray-lighter">
+                                    <button class="btn btn-lg btn-rounded btn-noborder btn-alt-success min-width-75" data-toggle="modal" data-target="#modal-pinjam"><i class="si si-basket"></i> Pinjam</button>
+                                </div>
+                            </a>
+                            <!-- END Business Plan -->
+                        </div>
+                        <div class="col-md-6 col-xl-3">
+                            <!-- VIP Plan -->
+                            <a class="block block-link-pop block-rounded block-bordered text-center" href="javascript:void(0)">
+                                <div class="block-header">
+                                    <h3 class="block-title">Pelindung Tulang Kering</h3>
+                                </div>
+                                <div class="block-content bg-gray-lighter">
+                                    <div class="col-12 animated fadeIn">
+                                        <div class="options-container fx-item-zoom-in fx-overlay-slide-down">
+                                            <img class="img-fluid options-item" src="assets/img/photos/deker.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block-content">
+                                    <p>Jumlah Tersedia: <strong>17</strong></p>
+                                    <p>Pelindung tulang kering (deker) untuk mengurangi kontak terhadap tulang kering</p>
+                                </div>
+                                <div class="block-content block-content-full bg-gray-lighter">
+                                    <button class="btn btn-lg btn-rounded btn-noborder btn-alt-success min-width-75" data-toggle="modal" data-target="#modal-pinjam"><i class="si si-basket"></i> Pinjam</button>
+                                </div>
+                            </a>
+                            <!-- END VIP Plan -->
                         </div>
                     </div>
-                    <!-- END Advanced Gallery -->
+                    </div>
                 </div>
                 <div class="modal fade" id="modal-popin1" tabindex="-1" role="dialog" aria-labelledby="modal-popin" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-popin" role="document">
@@ -177,7 +222,7 @@
                                             <label class="col-12" for="durasi">Durasi Peminjaman</label>
                                             <div class="col-12">
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control" id="durasi" placeholder="Durasi Peminjaman">
+                                                    <input type="text" class="form-control" id="durasi" placeholder="Durasi Peminjaman (dalam Hari)">
                                                     <div class="input-group-append">
                                                         <span class="input-group-text">
                                                             <i class="fa fa-clock-o"></i>
@@ -190,7 +235,7 @@
                                             <div class="col-12">
                                                 <label class="css-control css-control-sm css-control-success css-switch">
                                                     <input type="checkbox" class="css-control-input" id="register3-terms" name="register3-terms">
-                                                    <span class="css-control-indicator"></span> Saya menyetujui Syarat dan Ketentuan yang berlaku
+                                                    <span class="css-control-indicator"></span> Saya menyetujui <a href="/peminjaman/about_us">Syarat dan Ketentuan</a> yang berlaku
                                                 </label>
                                             </div>
                                         </div>
