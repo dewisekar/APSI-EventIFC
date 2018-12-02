@@ -56,8 +56,6 @@
                                 <!-- Logo -->
                                 <div class="content-header-item">
                                     <a class="link-effect font-w700" href="index.html">
-                                        <i class="si si-fire text-primary"></i>
-                                        <span class="font-size-xl text-dual-primary-dark">code</span><span class="font-size-xl text-primary">base</span>
                                     </a>
                                 </div>
                                 <!-- END Logo -->
@@ -81,6 +79,12 @@
                                 </li>
                                 <li>
                                     <a href="../event/hasilpertandingan"><i class="fa fa-soccer-ball-o"></i>Hasil Pertandingan</a>
+                                </li>
+                                <li>
+                                    <a href="../peserta/login"><i class="fa fa-user"></i>Login Peserta</a>
+                                </li>
+                                <li>
+                                    <a href="../panitia/login"><i class="fa fa-soccer-ball-o"></i>Login Panitia</a>
                                 </li>
                             </ul>
                         </div>
@@ -113,6 +117,12 @@
                             </li>
                             <li>
                                 <a href="../event/hasilpertandingan"><i class="fa fa-soccer-ball-o"></i>Hasil Pertandingan</a>
+                            </li>
+                            <li>
+                                <a href="../peserta/login"><i class="fa fa-user"></i>Login Peserta</a>
+                            </li>
+                            <li>
+                                <a href="../panitia/login"><i class="fa fa-soccer-ball-o"></i>Login Panitia</a>
                             </li>
                         </ul>
                         <!-- END Header Navigation -->
