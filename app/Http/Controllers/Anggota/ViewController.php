@@ -22,4 +22,12 @@ class ViewController extends Controller
     public function dataKegiatan(){
     	return view('anggota.data_kegiatan');
     }
+
+    public function presensi(){
+    	return view('anggota.presensi');
+    }
+
+    public function keaktifan(){
+    	return view('anggota.keaktifan');
+    }
 }

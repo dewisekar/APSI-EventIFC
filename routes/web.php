@@ -42,4 +42,6 @@ Route::group(['prefix' => 'anggota'], function () {
     Route::get('/dashboard', 'anggota\ViewController@dashboard');
     Route::get('/daftar_pemain', 'anggota\ViewController@daftarPemain');
     Route::get('/data_kegiatan', 'anggota\ViewController@dataKegiatan');
+    Route::get('/presensi', 'anggota\ViewController@presensi');
+    Route::get('/keaktifan', 'anggota\ViewController@keaktifan');
 });

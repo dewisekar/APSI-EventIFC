@@ -479,7 +479,7 @@
                                             <a href="/peminjaman"><span class="sidebar-mini-hide">Presensi</span></a>
                                         </li>
                                         <li>
-                                            <a href="/peminjaman"><span class="sidebar-mini-hide">Keaktifan</span></a>
+                                            <a href="/anggota/keaktifan"><span class="sidebar-mini-hide">Keaktifan</span></a>
                                         </li>
                                     </ul>
                                 </li>
