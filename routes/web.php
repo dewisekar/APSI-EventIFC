@@ -16,21 +16,19 @@ Route::get('/', function () {
 });
 
 
-Route::group(['prefix' => 'admin'], function () {
-    Route::get('dashboard', function () {
-        return view('admin/admindashboard');
-    })->name('adminhome');
-    Route::get('peserta', function () {
-        return view('admin/peserta');
-    });
-    Route::get('detailpeserta', function () {
-        return view('admin/detailpeserta');
-    });
+Route::group(['prefix' => 'panitia'], function () {
+    Route::get('/dashboard', 'Event\ViewController@index');
+    Route::get('/peserta', 'Event\ViewController@showPeserta');
+    Route::get('/detailpeserta', 'Event\ViewController@detailPeserta');
+    Route::get('/jadwal', 'Event\ViewController@showJadwal');
+    Route::get('/hasilpertandingan', 'Event\ViewController@hasilPertandingan');
+    Route::get('/login', 'Event\ViewController@loginPanitia');
 });
 
 Route::group(['prefix' => 'peminjaman'], function () {
     Route::get('', 'Peminjaman\ViewController@index');
     Route::get('/about_us', 'Peminjaman\ViewController@aboutUs');
+    
 });
 
 Route::group(['prefix' => 'anggota'], function () {
