@@ -25,5 +25,13 @@ class ViewController extends Controller
     public function loginPanitia(){
     	return view('event.panitia.login');
     }
-
+    public function pesertaDashboard(){
+    	return view('event.peserta.dashboard');
+    }
+    public function berkasPeserta(){
+    	return view('event.peserta.data');
+    }
+    public function loginPeserta(){
+    	return view('event.peserta.login');
+    }
 }
