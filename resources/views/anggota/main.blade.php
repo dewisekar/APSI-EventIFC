@@ -476,7 +476,7 @@
                                     <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-user"></i><span class="sidebar-mini-hide">Data Peserta</span></a>
                                     <ul style="background-color: #f7f4e5">
                                         <li>
-                                            <a href="/peminjaman"><span class="sidebar-mini-hide">Presensi</span></a>
+                                            <a href="/anggota/presensi"><span class="sidebar-mini-hide">Presensi</span></a>
                                         </li>
                                         <li>
                                             <a href="/anggota/keaktifan"><span class="sidebar-mini-hide">Keaktifan</span></a>
