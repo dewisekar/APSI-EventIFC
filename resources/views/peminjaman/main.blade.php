@@ -462,6 +462,11 @@
                             </ul>
                             <ul class="nav-main">
                                 <li>
+                                    <a href="/event"><i class="si si-trophy"></i><span class="sidebar-mini-hide">event</span></a>
+                                </li>
+                            </ul>
+                            <ul class="nav-main">
+                                <li>
                                     <a href="/peminjaman/about_us"><i class="si si-globe"></i><span class="sidebar-mini-hide">about us</span></a>
                                 </li>
                             </ul>
