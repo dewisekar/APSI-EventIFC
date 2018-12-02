@@ -34,4 +34,13 @@ class ViewController extends Controller
     public function loginPeserta(){
     	return view('event.peserta.login');
     }
+    public function dashboardEvent(){
+    	return view('event.umum.home');
+    }
+    public function jadwalEvent(){
+    	return view('event.umum.jadwal');
+    }
+    public function hasilEvent(){
+    	return view('event.umum.hasilpertandingan');
+    }
 }

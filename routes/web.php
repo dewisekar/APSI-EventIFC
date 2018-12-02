@@ -31,6 +31,12 @@ Route::group(['prefix' => 'peserta'], function () {
     Route::get('/login', 'Event\ViewController@loginPeserta');
 });
 
+Route::group(['prefix' => 'event'], function () {
+    Route::get('', 'Event\ViewController@dashboardEvent');
+    Route::get('/jadwal', 'Event\ViewController@jadwalEvent');
+    Route::get('/hasilpertandingan', 'Event\ViewController@hasilEvent');
+});
+
 Route::group(['prefix' => 'peminjaman'], function () {
     Route::get('', 'Peminjaman\ViewController@index');
     Route::get('/about_us', 'Peminjaman\ViewController@aboutUs');
