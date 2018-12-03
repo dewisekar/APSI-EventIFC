@@ -15,7 +15,7 @@
                             <!-- Countdown.js (class is initialized in js/pages/op_coming_soon.js), for more examples you can check out https://github.com/hilios/jQuery.countdown -->
                             <div class="js-countdown mb-20"></div>
 
-                            <a class="btn btn-hero btn-noborder btn-rounded btn-outline-warning" href="be_pages_generic_blank.html">
+                            <a class="btn btn-hero btn-noborder btn-rounded btn-outline-warning" href="../peminjaman">
                                 <i class="fa fa-arrow-left mr-10"></i> Go Back to UKM Sepakbola's Dashboard
                             </a>
                             <div class="form-group row text-center">
